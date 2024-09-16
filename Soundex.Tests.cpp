@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 #include "Soundex.h"
  
-TEST(SoudexTestsuite, ReplacesConsonantsWithAppropriateDigits) {
+TEST(SoudexTestsuite, checkforEmptyStrings) {
 //AAA
   char soundex[5];
   generateSoundex(" ", soundex);
